@@ -1,6 +1,6 @@
 {
-  "is_maintenance": false,
-  "start_time": "",
-  "end_time": "",
-  "message": ""
+  "is_maintenance": true,
+  "start_time": "2026-04-29T09:00:00",
+  "end_time": "2026-04-29T18:00:00",
+  "message": "message"
 }
