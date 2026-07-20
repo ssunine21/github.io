@@ -20,7 +20,7 @@
 
   { "type": "GuestWarring",                  "localizedTexts": ["게스트 계정 이용 시 앱 삭제, 디바이스 변경 등으로 <style=red>게임 정보가 저장되지 않는 경우</style>가 발생할 수 있습니다. 안전한 계정보호를 위해 계정 연동을 통해 진행하는 것을 권장합니다.\n\n게스트 계정으로 계속 진행하시겠습니까?", "If you play with a guest account, <style=red>your game data may be lost</style> when deleting the app or changing devices. We recommend linking your account to keep your data safe.\n\nContinue with a guest account?", "使用訪客帳號時，若刪除應用程式或更換裝置，<style=red>遊戲資料可能會遺失</style>。為了保護您的帳號安全，建議綁定帳號後再進行遊戲。\n\n要以訪客帳號繼續遊戲嗎？"] },
   { "type": "AgreeStart",                    "localizedTexts": ["동의하고 시작하기", "Agree and Start", "同意並開始"] },
-  { "type": "AgreeTermsOfUse",               "localizedTexts": ["[필수] 서비스 이용약관", "[Required] Terms of Service", "[必須] 服務條款"] },
-  { "type": "AgreePrivacyPolicy",            "localizedTexts": ["[필수] 개인정보 수집 및 이용 동의", "[Required] Consent to Collection and Use of Personal Information", "[必須] 個人資料蒐集及利用同意"] },
+  { "type": "AgreeTermsOfUse",               "localizedTexts": ["\[필수\] 서비스 이용약관", "\[Required\] Terms of Service", "\[必須\] 服務條款"] },
+  { "type": "AgreePrivacyPolicy",            "localizedTexts": ["\[필수\] 개인정보 수집 및 이용 동의", "\[Required\] Consent to Collection and Use of Personal Information", "\[必須\] 個人資料蒐集及利用同意"] },
   { "type": "PleaseAgree",                   "localizedTexts": ["약관 동의가 필요합니다.", "You must agree to the terms to continue.", "請先同意條款後再繼續。"] }
 ]
