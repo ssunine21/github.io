@@ -1,0 +1,26 @@
+[
+  { "type": "None",                          "localizedTexts": ["", "", ""] },
+  { "type": "ServerMaintenance",             "localizedTexts": ["서버 점검 중입니다.\n잠시 후 다시 접속해주세요.", "Server is under maintenance.\nPlease try again later.", "伺服器維護中。\n請稍後再試。"] },
+  { "type": "Confirm",                       "localizedTexts": ["확인", "OK", "確認"] },
+  { "type": "Cancel",                        "localizedTexts": ["취소", "Cancel", "取消"] },
+  { "type": "NeededStoreUpdate",             "localizedTexts": ["최신 버전으로 업데이트가 필요합니다.\n스토어로 이동합니다.", "A new version is available.\nYou will be redirected to the store.", "需要更新至最新版本。\n即將前往商店。"] },
+  { "type": "MaintenanceError",              "localizedTexts": ["서버 점검 중입니다.", "Server is under maintenance.", "伺服器維護中。"] },
+  { "type": "ServerError",                   "localizedTexts": ["서버 오류가 발생했습니다.", "A server error has occurred.", "發生伺服器錯誤。"] },
+  { "type": "TooManyRequestError",           "localizedTexts": ["요청이 너무 많습니다. 잠시 후 다시 시도해주세요.", "Too many requests. Please try again later.", "請求次數過多，請稍後再試。"] },
+  { "type": "TooManyRequestByLocalError",    "localizedTexts": ["요청이 너무 많습니다. 잠시 후 다시 시도해주세요.", "Too many requests. Please try again later.", "請求次數過多，請稍後再試。"] },
+  { "type": "OtherDeviceLoginDetectedError", "localizedTexts": ["다른 기기에서 로그인이 감지되었습니다.", "Login detected on another device.", "偵測到其他裝置登入。"] },
+  { "type": "DeviceBlockError",              "localizedTexts": ["접속이 차단된 기기입니다.", "This device has been blocked.", "此裝置已被封鎖。"] },
+
+  { "type": "Loading",                       "localizedTexts": ["로딩 중...", "Loading...", "載入中..."] },
+  { "type": "NowLoading",                    "localizedTexts": ["로딩 중...", "Loading...", "載入中..."] },
+
+  { "type": "ConnectingToServer",            "localizedTexts": ["서버에 연결 중...", "Connecting to server...", "正在連接伺服器..."] },
+  { "type": "ErrorWaitForTry",               "localizedTexts": ["오류가 발생했습니다. 잠시 후 다시 시도해주세요.", "An error has occurred. Please try again later.", "發生錯誤，請稍後再試。"] },
+  { "type": "ErrorSys500Internal",           "localizedTexts": ["시스템 오류가 발생했습니다. (500)", "A system error has occurred. (500)", "發生系統錯誤。(500)"] },
+
+  { "type": "GuestWarring",                  "localizedTexts": ["게스트 계정 이용 시 앱 삭제, 디바이스 변경 등으로 <style=red>게임 정보가 저장되지 않는 경우</style>가 발생할 수 있습니다. 안전한 계정보호를 위해 계정 연동을 통해 진행하는 것을 권장합니다.\n\n게스트 계정으로 계속 진행하시겠습니까?", "If you play with a guest account, <style=red>your game data may be lost</style> when deleting the app or changing devices. We recommend linking your account to keep your data safe.\n\nContinue with a guest account?", "使用訪客帳號時，若刪除應用程式或更換裝置，<style=red>遊戲資料可能會遺失</style>。為了保護您的帳號安全，建議綁定帳號後再進行遊戲。\n\n要以訪客帳號繼續遊戲嗎？"] },
+  { "type": "AgreeStart",                    "localizedTexts": ["동의하고 시작하기", "Agree and Start", "同意並開始"] },
+  { "type": "AgreeTermsOfUse",               "localizedTexts": ["[필수] 서비스 이용약관", "[Required] Terms of Service", "[必須] 服務條款"] },
+  { "type": "AgreePrivacyPolicy",            "localizedTexts": ["[필수] 개인정보 수집 및 이용 동의", "[Required] Consent to Collection and Use of Personal Information", "[必須] 個人資料蒐集及利用同意"] },
+  { "type": "PleaseAgree",                   "localizedTexts": ["약관 동의가 필요합니다.", "You must agree to the terms to continue.", "請先同意條款後再繼續。"] }
+]
