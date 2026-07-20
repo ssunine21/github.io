@@ -22,5 +22,6 @@
   { "type": "AgreeStart",                    "localizedTexts": ["동의하고 시작하기", "Agree and Start", "同意並開始"] },
   { "type": "AgreeTermsOfUse",               "localizedTexts": ["\[필수\] 서비스 이용약관", "\[Required\] Terms of Service", "\[必須\] 服務條款"] },
   { "type": "AgreePrivacyPolicy",            "localizedTexts": ["\[필수\] 개인정보 수집 및 이용 동의", "\[Required\] Consent to Collection and Use of Personal Information", "\[必須\] 個人資料蒐集及利用同意"] },
-  { "type": "PleaseAgree",                   "localizedTexts": ["약관 동의가 필요합니다.", "You must agree to the terms to continue.", "請先同意條款後再繼續。"] }
+  { "type": "PleaseAgree",                   "localizedTexts": ["약관 동의가 필요합니다.", "You must agree to the terms to continue.", "請先同意條款後再繼續。"] },
+  { "type": "GuestLogin",                   "localizedTexts": ["게스트 로그인", "Guest Login", "訪客登入"] }
 ]
