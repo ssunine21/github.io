@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Source & Resource Licenses - THE MESSAGE Co., Ltd.</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-color: #0071e3;
+            --bg-color: #ffffff;
+            --secondary-bg-color: #f5f5f7;
+            --text-color: #1d1d1f;
+            --text-sub: #86868b;
+            --border-radius: 20px;
+            --box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 20px 40px;
+        }
+
+        h1 { 
+            text-align: center; 
+            color: var(--primary-color); 
+            border-bottom: 2px solid var(--primary-color); 
+            padding-bottom: 15px; 
+            margin-bottom: 10px; 
+            font-size: 2em;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        .subtitle-desc {
+            text-align: center;
+            color: var(--text-sub);
+            font-size: 0.95em;
+            margin-bottom: 50px;
+            word-break: keep-all;
+        }
+
+        .asset-card {
+            background: var(--bg-color);
+            border-radius: var(--border-radius);
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: var(--box-shadow);
+            border: 1px solid #f0f0f0;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .asset-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+        }
+
+        .asset-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            flex-wrap: wrap;
+            border-bottom: 1px solid #eaeaea;
+            padding-bottom: 12px;
+            margin-bottom: 15px;
+        }
+
+        .asset-title {
+            font-size: 1.25em;
+            font-weight: 700;
+            color: var(--text-color);
+            margin: 0;
+        }
+
+        .author { 
+            font-size: 0.95em; 
+            color: var(--primary-color); 
+            font-weight: 600;
+        }
+
+        .author a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .author a:hover {
+            text-decoration: underline;
+        }
+
+        .license-box {
+            background-color: var(--secondary-bg-color);
+            border-left: 4px solid var(--primary-color);
+            padding: 15px 20px;
+            border-radius: 0 12px 12px 0;
+            margin-bottom: 20px;
+        }
+
+        .license-box ul { 
+            margin: 0; 
+            padding-left: 20px; 
+            color: #424245;
+            font-size: 0.95em;
+        }
+
+        .license-box li {
+            margin-bottom: 6px;
+        }
+        .license-box li:last-child {
+            margin-bottom: 0;
+        }
+
+        .tags { 
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 8px; 
+        }
+
+        .tag {
+            background-color: var(--secondary-bg-color);
+            color: #555;
+            font-size: 0.8em;
+            font-weight: 500;
+            padding: 6px 12px;
+            border-radius: 8px;
+            border: 1px solid #e5e5ea;
+        }
+
+        .req-tag { 
+            background-color: #fff0f0; 
+            color: #d93025; 
+            border-color: #ffd0d0;
+            font-weight: 600;
+        }
+
+        .back-link {
+            display: block;
+            margin-top: 60px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .back-link a {
+            background-color: var(--secondary-bg-color);
+            color: var(--primary-color);
+            padding: 12px 25px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.95em;
+            transition: background-color 0.2s;
+            display: inline-block;
+        }
+
+        .back-link a:hover { 
+            background-color: #e5e5ea; 
+        }
+
+        footer {
+            padding: 60px 20px;
+            font-size: 13px;
+            color: var(--text-sub);
+            background-color: var(--bg-color);
+            text-align: center;
+            border-top: 1px solid #f0f0f0;
+            margin-top: 40px;
+        }
+
+        .policy-links { margin-bottom: 25px; }
+        .policy-links a { color: #555; margin: 0 15px; text-decoration: none; }
+        .policy-links a:hover { color: var(--primary-color); }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>오픈소스 및 리소스 라이선스</h1>
+        <div class="subtitle-desc">
+            THE MESSAGE Co., Ltd.의 게임 서비스는 다음과 같은 우수한 제3자 에셋 및 오픈소스 리소스를 활용하여 제작되었습니다.
+        </div>
+
+        <!-- 1. Pixel Art Skill Icons Bundle -->
+        <div class="asset-card">
+            <div class="asset-header">
+                <h3 class="asset-title">Pixel Art Skill Icons Bundle – Elemental Magic Spells</h3>
+                <span class="author"><a href="https://dunpixel.itch.io/" target="_blank">by Dunpixel ↗</a></span>
+            </div>
+            <div class="license-box">
+                <ul>
+                    <li>You may use these icons in personal and commercial game projects.</li>
+                    <li>You may modify the icons to fit your game.</li>
+                    <li>You may not resell, redistribute, repackage, or upload the raw asset files as your own asset pack.</li>
+                    <li>Credit is appreciated but not required.</li>
+                </ul>
+            </div>
+            <div class="tags">
+                <span class="tag">Icons</span>
+                <span class="tag">Pixel Art</span>
+                <span class="tag">Spells</span>
+            </div>
+        </div>
+
+        <!-- 2. Super Pixel Projectiles Pack 4 -->
+        <div class="asset-card">
+            <div class="asset-header">
+                <h3 class="asset-title">Super Pixel Projectiles Pack 4</h3>
+                <span class="author"><a href="https://untiedgames.itch.io/" target="_blank">by Untied Games ↗</a></span>
+            </div>
+            <div class="license-box">
+                <ul>
+                    <li>Attribution + no reselling the asset itself.</li>
+                    <li>Commercial and non-commercial use OK!</li>
+                </ul>
+            </div>
+            <div class="tags">
+                <span class="tag">VFX</span>
+                <span class="tag">Projectiles</span>
+                <span class="tag req-tag">⚠️ Attribution Required</span>
+            </div>
+        </div>
+
+        <!-- 3. Particle FX - Status / Impact / Particle FX -->
+        <div class="asset-card">
+            <div class="asset-header">
+                <h3 class="asset-title">Particle FX - Status / Impact FX</h3>
+                <span class="author"><a href="https://ragnapixel.itch.io/" target="_blank">by Raphael Hatencia (Ragnapixel) ↗</a></span>
+            </div>
+            <div class="license-box">
+                <ul>
+                    <li><strong>LICENCE: Creative Commons Attribution v4.0 International (CC BY 4.0)</strong></li>
+                    <li>This asset pack can be used in free and commercial projects.</li>
+                    <li>You must credit me as Raphael Hatencia when using this asset pack.</li>
+                </ul>
+            </div>
+            <div class="tags">
+                <span class="tag">Particle FX</span>
+                <span class="tag">CC BY 4.0</span>
+                <span class="tag req-tag">⚠️ Attribution Required</span>
+            </div>
+        </div>
+
+        <!-- 4. Pixel UI & HUD -->
+        <div class="asset-card">
+            <div class="asset-header">
+                <h3 class="asset-title">Pixel UI & HUD</h3>
+                <span class="author"><a href="https://deadrevolver.itch.io/" target="_blank">by DeadRevolver ↗</a></span>
+            </div>
+            <div class="license-box">
+                <ul>
+                    <li>Can be modified, or used personally and commercially with no crediting required.</li>
+                </ul>
+            </div>
+            <div class="tags">
+                <span class="tag">UI / HUD</span>
+                <span class="tag">Pixel Art</span>
+            </div>
+        </div>
+
+        <!-- 5. Wizard - Top Down Pixel Art Character Assets -->
+        <div class="asset-card">
+            <div class="asset-header">
+                <h3 class="asset-title">Wizard - Top Down Pixel Art Character Assets</h3>
+                <span class="author"><a href="https://sanctumpixel.itch.io/" target="_blank">by SanctumPixel ↗</a></span>
+            </div>
+            <div class="license-box">
+                <ul>
+                    <li><strong>What you can:</strong> Use this asset on your game and sell your game. Credits are welcome but not required!</li>
+                    <li><strong>What you can not:</strong> Resell the asset. Or edit then resell the asset!</li>
+                </ul>
+            </div>
+            <div class="tags">
+                <span class="tag">Character</span>
+                <span class="tag">Top Down</span>
+                <span class="tag">Pixel Art</span>
+            </div>
+        </div>
+
+        <!-- 6. Spell Books - The Magic Library -->
+        <div class="asset-card">
+            <div class="asset-header">
+                <h3 class="asset-title">Spell Books - The Magic Library</h3>
+                <span class="author"><a href="https://builtdivstudios.itch.io/" target="_blank">by BuiltDiv Studios, LLC ↗</a></span>
+            </div>
+            <div class="license-box">
+                <ul>
+                    <li>General License Agreement ("License Agreement for BuiltDiv Studios, LLC").</li>
+                    <li>Legal agreement regarding the use of digital assets purchased from BuiltDiv Studios, LLC through our game asset shop.</li>
+                </ul>
+            </div>
+            <div class="tags">
+                <span class="tag">Icons / Books</span>
+                <span class="tag">Prop</span>
+            </div>
+        </div>
+
+        <!-- 7. Pixel Craft VFX - URP -->
+        <div class="asset-card">
+            <div class="asset-header">
+                <h3 class="asset-title">Pixel Craft VFX - URP</h3>
+                <span class="author"><a href="https://vefects.com" target="_blank">by Vefects ↗</a></span>
+            </div>
+            <div class="license-box">
+                <ul>
+                    <li><strong>License agreement:</strong> Standard Unity Asset Store EULA (Site License)</li>
+                    <li>Personal and commercial game projects allowed under the Unity Asset Store EULA terms.</li>
+                </ul>
+            </div>
+            <div class="tags">
+                <span class="tag">Unity Asset Store EULA</span>
+                <span class="tag">VFX</span>
+                <span class="tag">URP</span>
+            </div>
+        </div>
+
+        <!-- 8. Pixel Art Full GUI / UI Kit + 151 icons! -->
+        <div class="asset-card">
+            <div class="asset-header">
+                <h3 class="asset-title">Pixel Art Full GUI / UI Kit + 151 icons!</h3>
+                <span class="author"><a href="https://honeti.com/en/" target="_blank">by Honeti ↗</a></span>
+            </div>
+            <div class="license-box">
+                <ul>
+                    <li><strong>License agreement:</strong> Standard Unity Asset Store EULA (Site License)</li>
+                    <li>Personal and commercial game projects allowed under the Unity Asset Store EULA terms.</li>
+                </ul>
+            </div>
+            <div class="tags">
+                <span class="tag">Unity Asset Store EULA</span>
+                <span class="tag">UI Kit</span>
+                <span class="tag">Icons</span>
+            </div>
+        </div>
+
+        <!-- 9. Pixel Art RPG VFX -->
+        <div class="asset-card">
+            <div class="asset-header">
+                <h3 class="asset-title">Pixel Art RPG VFX</h3>
+                <span class="author"><a href="https://assetstore.unity.com/publishers/51415" target="_blank">by Unity Asset Store Publisher #51415 ↗</a></span>
+            </div>
+            <div class="license-box">
+                <ul>
+                    <li><strong>License agreement:</strong> Standard Unity Asset Store EULA (Site License)</li>
+                    <li>Personal and commercial game projects allowed under the Unity Asset Store EULA terms.</li>
+                </ul>
+            </div>
+            <div class="tags">
+                <span class="tag">Unity Asset Store EULA</span>
+                <span class="tag">VFX</span>
+                <span class="tag">RPG</span>
+            </div>
+        </div>
+
+        <!-- 10. Epic RPG World Collection -->
+        <div class="asset-card">
+            <div class="asset-header">
+                <h3 class="asset-title">Epic RPG World Collection</h3>
+                <span class="author"><a href="https://itch.io/profile/rafaelmatos" target="_blank">by Rafael Matos ↗</a></span>
+            </div>
+            <div class="license-box">
+                <ul>
+                    <li><strong>License agreement:</strong> Standard Unity Asset Store EULA (Site License)</li>
+                    <li>Personal and commercial game projects allowed under the Unity Asset Store EULA terms.</li>
+                </ul>
+            </div>
+            <div class="tags">
+                <span class="tag">Unity Asset Store EULA</span>
+                <span class="tag">World / Environment</span>
+                <span class="tag">RPG</span>
+            </div>
+        </div>
+
+        <div class="back-link">
+            <a href="index.html">← 메인 페이지로 돌아가기</a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="policy-links">
+            <a href="privacy.html">개인정보 처리방침</a> |
+            <a href="terms.html">이용약관</a> |
+            <a href="refund.html">청약철회 정책</a>
+        </div>
+        <p><strong>THE MESSAGE Co., Ltd.</strong>는 모든 게임 서비스의 공식 운영사로서 사용자 권익 보호에 최선을 다합니다.</p>
+        <p>&copy; 2024 THE MESSAGE Co., Ltd. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
