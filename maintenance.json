@@ -1,7 +1,7 @@
 {
-  "is_maintenance": false,
-  "start_time": "2026-09-08T22:00:00",
-  "end_time": "2026-09-08T23:30:00",
+  "is_maintenance": true,
+  "start_time": "2026-09-12T01:00:00",
+  "end_time": "2026-09-12T02:00:00",
   "message": "",
   "bypass_uuids": [
     "5f8f74e0-7c24-11f1-8f3f-733c8868f4e8"
